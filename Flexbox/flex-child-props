@@ -1,0 +1,30 @@
+properties for child elements in flex
+
+ ** order - orders a different element in a specific position
+
+.box {
+    order: 2
+}
+
+.box:nth-child(3) {
+    order: 1;
+}
+this will send the 3rd elemen to the first place of the ordering 
+because all other items have ordering 2
+
+if the other items do not have ordering the 3rd element will go to the end
+
+
+** flex-grow: number(1, 2, 3) - allows the item to grow to fill free space, 0 - dont grow
+
+** flex-shrink - opposite ot flex grow
+the items will shrink if we make the browse window smaller
+
+** flex-basis: This defines the default size of an element before the remaining space is distributed.
+It can be a length (e.g. 20%, 5rem, etc.) or a keyword (auto, content)
+
+** we ca use just flex: 2 1 auto; which means:
+.item {
+    flex: (default)none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
+
+** align-self { property } - can align only one item seperately from the others

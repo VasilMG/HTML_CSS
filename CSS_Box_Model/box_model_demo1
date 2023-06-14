@@ -1,0 +1,65 @@
+css reset:
+*, *:before, *:after {padding: 0; margin: 0;}
+
+** when the content doesnt fit in the box we use the overflow propery in the parent:
+overflow: auto; --- makes scrollers bottom and right
+overflow: hidden - hides the things that doesnt fit. NO scorller
+overflow: scroll - adds scorlls also
+overflow: visible -- shows the content outside the box 
+
+
+
+html elements types:
+
+Inline elements - elements part of text 
+example - span,img, button, map, textarea ....
+
+Block elements - take all the space until the end of the page 
+and make a new_line above and below them
+examples - h1, p, table, section .... most of the elements are blokck!!!
+
+Inline-Block elements - to change the property of an element to dosplay-Block
+
+** to change the position of a pic and the text should be around it, not after it:
+float: right, left ... 
+
+** to clear a p tag with css:
+p::after { content: ''; clear: both;} also we can add dosplay: block
+for the img we can add -- padding 1em
+
+//PADDING
+** padding: up, right,bottom, left --> padding: 1em 1em 1em 1em
+** padding [top & bottom] [left & right]
+** padding-bolck: [top & bottom]
+** padding-inline: [left & right]
+** padding: 0 --> no padding
+** padding-inline: 1em --> for inline elements, padding-block can also be used
+
+//MARGIN
+** margin: up, right,bottom, left --> padding: 1em 1em 1em 1em
+** margin [top & bottom] [left & right]
+** margin-bolck: [top & bottom]
+** margin-inline: [left & right]
+** margin: 0 --> no margin
+
+for inline itelms to be used as block intem in the line:
+** display: inline-block
+
+// properties for block elements:
+width and height can be also with the % --> 50%
+width, height, can be used with max or min height, width to specify the max size 
+with max-height and max width - the max dimensions if there is a content in the element.
+if there is less or no content - it shrinks down
+
+** padding - adding a space between the content and the border of the element.
+space IN the element itself ... inner space
+** margin - adds a space AFTER the border to the adjecent elements or end of space in browser
+outer space b/n the element and other elements
+
+** border: border 1px sodid (dashed) colour;
+borders can be: solid, dashed, dotted, double, groove, ridge, inset, outset, none.
+
+
+
+
+

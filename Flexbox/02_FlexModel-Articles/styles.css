@@ -1,0 +1,21 @@
+html {
+    font: 14px/1.5 Helvetica, sans-serif;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
+}
+
+body {
+    padding: 5em;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    gap: 1em;
+    margin: 0 auto;
+
+}

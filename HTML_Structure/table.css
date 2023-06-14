@@ -1,0 +1,15 @@
+td, th {
+    border: 1px solid gray;
+    padding: 0.5em 1em;
+}
+table {
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
+table thead th {
+    background-color: green;
+    color: white;
+}
+table tbody tr:nth-child(odd){
+    background: lightgreen;
+}

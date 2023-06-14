@@ -1,0 +1,56 @@
+inline and block elements
+
+inline - show data in the line - like text --->
+span, a... and more
+
+block - take all the space horizontally and display items on below the other
+ul, p ...
+
+
+fonts - properties and selectors
+
+** font-family / font-face (sans-serif, Arial)--> sets the font of the page
+font-family: "Times New Roman" - when name has spaces if should be in quotes
+font-family: Arial, Helvetica (sequence of shrifts) --> withoout quotes
+
+example:
+in css file:
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/opensans.woff") format("woff")
+}
+in html:
+<p style="font-family: Open Sans">Open Sans Demo</p>
+
+** font-size / line-height (18pt)--> the size of the text
+with 1px = 0.75pt / or pt or em
+em - size of the text depending on the space of the parent / container --> resizable
+
+rem -- size depending on the html size of the document
+
+font-weight ( bold) - how bold should be the text
+font-style (italic) --> the type of the shrift
+font-variant (SmallCaps) --> makes small letters look like big
+
+** text-allign: left / right/ center/ justify;
+** line-height: in px, pt, em or rem
+** letter-spacing: in px or normal ot restore
+** text-decoration: line-through, underline;
+** text-indent: in px - moves the first line of text to lef or right 
+** text-overflow: clip; when we run out of space for the text it adds '...' at the back
+
+** text-transform: capitalize / uppercase / lowercase - transforms the text
+
+** word-break: defines how the word should break when reaching the end ogf the line
+normal, break-all
+
+** text-shadow: to add a shadow of the text
+** background-color: transparent, navy;
+
+** cursor: pointer, move, none, col-size --> 
+changes the cursor when hovering
+
+** outline: px dotted color -- adds an outline to our text
+
+
+

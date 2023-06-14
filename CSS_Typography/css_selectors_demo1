@@ -1,0 +1,41 @@
+* - selects all elements
+type selector --> h1 { css code} --> selects all h1 in the document
+
+class selector --> .<classname> {css} - selects all elements with the selected class name
+
+id selector --> #<id> {css} --> selects the element(one) with the selected id
+
+attribute selector --> [attr] or [attr=value] [attr~=value] ...
+[attr] -- all element that have this attribute (any value)
+[attr=value] - all elements with value equal to value
+
+List selectors 
+selectorA,(with comma) selectorB {css} - selects elements with both selectors
+
+Comninator selectors
+with space - selects all descendants of the first selector
+selectorA <--(space)selectorB {css} 
+article image {css} --> will select all image tegs with parents article tag
+
+child selector
+A > B {css} - selects all Bs with parent A
+#id > p {css } --> will select all <p>s in the parent with the selected id
+
+siblings selector
+A ~ B {css}
+B element that follows A element ( not needed immediately)
+p ~ span {css}
+
+direct sibling
+A + B {css}
+B element that  IMMEDIATELY follows A element
+just the first element!!!!  
+p + span {css}
+
+For additional -- see Mozilla docs Peseudo selectors and so on 
+pseudo:
+p:last-of-type --> in all tags the last <p>
+
+
+
+

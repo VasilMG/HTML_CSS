@@ -1,0 +1,21 @@
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+}
+nav li {
+    display: block;
+}
+header nav {
+    margin-left: auto;
+    /* to move the li(a) to the right side of the page */
+}
